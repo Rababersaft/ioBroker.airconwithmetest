@@ -33,6 +33,11 @@ Most datapoints are readonly, you can set the following:
 | remoteDisable | 0: Enable; 1: Disable |
 
 ## Changelog
+### 0.0.4
+* (weggetor) Bugfix sending username + password to Intesis API (formerly send admin/admin hardcoded)
+
+### 0.0.3
+* (weggetor) Renamed some variables to avoid possible interference with other adapters, removed not used adminTab
 
 ### 0.0.2
 * (weggetor) Modifications to automatic build incl. upload to npm
@@ -43,7 +48,7 @@ Most datapoints are readonly, you can set the following:
 ## License
 MIT License
 
-Copyright (c) 2021 weggetor <info@bitboxx.net>
+Copyright (c) 2022 weggetor <info@bitboxx.net>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
